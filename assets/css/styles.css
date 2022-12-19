@@ -1,13 +1,19 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background-color: gray;
-    background-size: cover;
+    background-color: white;
+    height: 100vh;
 }
 #logo{
     max-width: 150px;
     margin-left: 30px;
+}
+#nav{
+    background-color: black;
+    border-bottom: 5px solid red;
 }
 .nav-list{
     margin: 0;
@@ -15,45 +21,38 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+   
 }
 .nav-item{
     list-style: none;
     margin-right: 2rem;
 }
+.hover-underline-animation{
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+.hover-underline-animation::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25 ease-out;
+    transform: scaleX(0);
+}
+.hover-underline-animation:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
 .nav-item:first-child{
     margin-right: auto;
     margin-left:2rem ;
-    color: white;
-}
-.site-title{
-    color:white;
-    text-align: center;
-    font-size: 50px;
-}
-.site-subtitle{
-    color: white;
-    text-align: center;
-}
-.first-3{
-    display: flex;
-    justify-content:center;  
-    
-}
-.price-item{
-    margin: 30px;
-}
-.last-3{
-    display: flex;
-    justify-content:center;  
-    
-}
-.price-item2{
-    margin: 30px;
-
-}
-.price-item2 h1{
-    color: blue;
-}
-#price{
-    color:red;
+  
 }
