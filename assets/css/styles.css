@@ -9,11 +9,12 @@ body{
 }
 #logo{
     max-width: 150px;
+    height: 40px;
     margin-left: 30px;
 }
 #nav{
-    background-color: black;
-    border-bottom: 5px solid red;
+    background-color: #121212;
+    border-bottom: 5px solid white;
 }
 .nav-list{
     margin: 0;
@@ -48,11 +49,53 @@ body{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
-
-
 .nav-item:first-child{
     margin-right: auto;
     margin-left:2rem ;
   
 }
+.hero{
+    background-image: url("../images/fondo.jpg");
+    background-color: gray;
+    background-blend-mode: multiply;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-size: cover;
+    
+}
+#hero-title{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+#hero-subheading{
+    color:white;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 25px;
+}
+#hero-subheading2{
+    color:white;
+    text-align: center;
+    font-size: 1.25rem;
+
+}
+#hero-shipping{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+}
+#hero-button{
+   width: 150px ;
+   height: 35px;
+   background-color: lightblue;
+   margin-top: 25px;
+   position: absolute;
+   top: 50%;
+   left: 50px;
+   transform: translate(-50, -50);
+  
+    
+}
+
