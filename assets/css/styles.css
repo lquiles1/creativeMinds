@@ -4,8 +4,8 @@
     padding: 0;
 }
 body{
-    background-color: white;
-    height: 100vh;
+    background-color: #e8e8e8;
+    
 }
 #logo{
     max-width: 150px;
@@ -22,7 +22,6 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-   
 }
 .nav-item{
     list-style: none;
@@ -55,7 +54,7 @@ body{
   
 }
 .hero{
-    background-image: url("../images/fondo.jpg");
+    background-image: url("../images/portada.jpg");
     background-color: gray;
     background-blend-mode: multiply;
     padding-top: 400px;
@@ -99,10 +98,76 @@ body{
    font-weight: bold;
    border: none;
    border-radius: 25px;
-   background-color: #00a0e3;
+   background-color: #fe4d4d;
    margin-top: 25px;
 }
 #hero-button:hover{
-    border: 5px solid white;
+    background-color: #fe0000;
+}
+.service{
+   
+}
+#service-title{
+    color: #444444;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#service-subtitle{
+    color: #444444;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+.service-carusel{
+   display: flex;
+   justify-content: center;
+   
+ 
+}
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: white ;
+   
+}
+#card-icon{
+    width: 86px;
+    height: 86px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#card-heading{
+    font-size: 22px;
+    margin-top: 20px;
+    color: #444444;
+    text-align: center;
+}
+#card-subheading{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+#card-button{
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: #fe4d4d;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #fe4d4d;
+    border-radius: 25px
+}
+#card-button:hover{
+    background-color: #fe0000;
+}
