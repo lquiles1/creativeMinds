@@ -59,8 +59,7 @@ body{
     background-blend-mode: multiply;
     padding-top: 400px;
     padding-bottom: 400px;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 #hero-title{
     font-size: 4em;
@@ -107,13 +106,13 @@ body{
 .service{
    
 }
-#service-title{
+#universal-title{
     color: #444444;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
 }
-#service-subtitle{
+#universal-subtitle{
     color: #444444;
     font-size: 15px;
     font-weight: lighter;
@@ -135,7 +134,11 @@ body{
     border-radius: 15px;
     margin: 10px;
     background-color: white ;
+
    
+}
+.card:hover{
+    transform: scale(1.1);
 }
 #card-icon{
     width: 86px;
@@ -171,3 +174,53 @@ body{
 #card-button:hover{
     background-color: #fe0000;
 }
+.brand-packages{
+    display: flex;
+    justify-content: center;
+}
+.brand-deal{
+    width: 300px;
+    height: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 200px;
+}
+
+#brand-title{
+    background-color: #fe4d4d;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#include-title{
+    background-color: #e3e0e0;
+    text-align: center;
+    padding: 20px;
+}
+#tshirt-title{
+    text-align: center;
+    padding: 30px;
+}
+#hoodie-title{
+    text-align: center;
+    padding: 30px;
+    background-color: #e3e0e0;
+    border-bottom: #444444;
+}
+#deal-button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    background-color: #fe4d4d;
+    margin-top: 40px;
+}
+
+
+
